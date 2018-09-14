@@ -1,4 +1,0 @@
-flask==0.12.1
-py2neo
-neo4j-driver
-pytest
