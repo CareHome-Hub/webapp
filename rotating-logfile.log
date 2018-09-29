@@ -7,3 +7,7 @@
 [I 180914 11:08:33 __init__:24] campaigns.get_campaigns()
 [I 180914 11:08:52 __init__:43] /tet/v1/touchpoints
 [I 180914 11:08:52 __init__:46] touchpoint - request.args
+[I 180929 01:12:14 __init__:18] root triggered
+[I 180929 01:13:01 __init__:44] /tet/v1/touchpoints
+[I 180929 01:13:01 __init__:47] touchpoint - request.args
+[I 180929 01:13:09 __init__:44] /tet/v1/touchpoints
