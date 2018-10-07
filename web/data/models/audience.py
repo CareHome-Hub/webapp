@@ -17,8 +17,8 @@ def get_audience():
        a.postcode_lvl, a.psyc_lvl, a.edu_lvl, a.email, a.behav_lvl"
     )
 
-    for elem in data:
-        print("Element : {}".format(elem))
+    # for elem in data:
+    #     print("Element : {}".format(elem))
     return data
 
 

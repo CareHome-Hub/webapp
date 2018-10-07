@@ -34,7 +34,7 @@ def get_targets():
       "MATCH(t: TARGET) RETURN t.title as title, t.ref as ref"
     )
 
-    for elem in data:
-        print("Element : {}".format(elem))
+    # for elem in data:
+    #     print("Element : {}".format(elem))
     return data
 

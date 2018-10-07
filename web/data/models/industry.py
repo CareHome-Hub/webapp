@@ -48,7 +48,7 @@ def get_industry():
       "MATCH(i: INDUSTRY) RETURN i.title as title, i.ref as ref"
     )
 
-    for elem in data:
-        print("Element : {}".format(elem))
+    # for elem in data:
+    #     print("Element : {}".format(elem))
     return data
 

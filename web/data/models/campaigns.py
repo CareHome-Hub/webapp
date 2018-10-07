@@ -209,6 +209,6 @@ def get_campaigns():
                       c.BudgetRollover, c. ConversionRate , c.Cost ,\
                       c.ImprovementsCost, c.Predicted_Goal , c.Predicted_Goal_variance, c.StartingBudget, c.SuccessFee, c. campaign ")
 
-    for elem in data:
-        print("Element : {}".format(elem))
+    # for elem in data:
+    #     print("Element : {}".format(elem))
     return data

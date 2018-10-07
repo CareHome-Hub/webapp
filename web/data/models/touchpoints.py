@@ -65,7 +65,7 @@ def get_touchpoints():
       "MATCH(t: TOUCHPOINT) RETURN t.AvgCost as AvgCost, t.AvgReview as AvgReview, t.SCORE as SCORE, t.ref as ref, t.title as title, t.touchpoint as touchpoint, t.type as type"
     )
 
-    for elem in data:
-        print("Element : {}".format(elem))
+    # for elem in data:
+    #     print("Element : {}".format(elem))
     return data
 

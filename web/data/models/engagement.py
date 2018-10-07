@@ -34,7 +34,7 @@ def get_engagements():
       "MATCH(e: ENGAGEMENT) RETURN e.name as name, e.ref as ref"
     )
 
-    for elem in data:
-        print("Element : {}".format(elem))
+    # for elem in data:
+    #     print("Element : {}".format(elem))
     return data
 
