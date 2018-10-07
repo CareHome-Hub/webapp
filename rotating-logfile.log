@@ -11,3 +11,73 @@
 [I 180929 01:13:01 __init__:44] /tet/v1/touchpoints
 [I 180929 01:13:01 __init__:47] touchpoint - request.args
 [I 180929 01:13:09 __init__:44] /tet/v1/touchpoints
+[I 181002 13:06:13 __init__:44] /tet/v1/touchpoints
+[I 181002 13:06:13 __init__:47] touchpoint - request.args
+[I 181002 13:23:02 __init__:44] /tet/v1/touchpoints
+[I 181002 13:23:02 __init__:47] touchpoint - request.args
+[I 181002 13:23:37 __init__:23] /tet/v1/campaigns
+[I 181002 13:23:37 __init__:25] campaigns.get_campaigns()
+[I 181002 13:24:00 __init__:23] /tet/v1/campaigns
+[I 181002 13:24:00 __init__:25] campaigns.get_campaigns()
+[I 181005 13:00:01 __init__:24] CALL /tet/v1/campaigns
+[I 181006 16:26:20 __init__:45] /tet/v1/touchpoints
+[I 181007 14:10:04 __init__:18] root triggered
+[I 181007 14:11:04 __init__:24] CALL /tet/v1/campaigns
+[I 181007 14:11:04 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 14:11:04 __init__:26] campaigns.get_campaigns()
+[I 181007 14:11:21 __init__:24] CALL /tet/v1/campaigns
+[I 181007 14:11:21 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 14:11:22 __init__:26] campaigns.get_campaigns()
+[I 181007 14:11:22 __init__:28] campaign - request.args
+[I 181007 14:12:09 __init__:24] CALL /tet/v1/campaigns
+[I 181007 14:12:09 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 14:12:09 __init__:26] campaigns.get_campaigns()
+[I 181007 14:12:09 __init__:28] campaign - request.args
+[I 181007 14:14:31 __init__:24] CALL /tet/v1/campaigns
+[I 181007 14:14:31 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 14:14:31 __init__:26] campaigns.get_campaigns()
+[I 181007 14:16:19 __init__:24] CALL /tet/v1/campaigns
+[I 181007 14:16:19 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 14:16:19 __init__:26] campaigns.get_campaigns()
+[I 181007 14:31:01 __init__:24] CALL /tet/v1/campaigns
+[I 181007 14:31:01 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 14:31:01 __init__:26] campaigns.get_campaigns()
+[I 181007 14:33:18 __init__:24] CALL /tet/v1/campaigns
+[I 181007 14:33:18 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 14:33:18 __init__:26] campaigns.get_campaigns()
+[I 181007 14:33:18 __init__:28] campaign - request.args
+[I 181007 14:33:30 __init__:24] CALL /tet/v1/campaigns
+[I 181007 14:33:30 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 14:33:30 __init__:26] campaigns.get_campaigns()
+[I 181007 14:34:54 __init__:24] CALL /tet/v1/campaigns
+[I 181007 14:34:54 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 14:34:55 __init__:26] campaigns.get_campaigns()
+[I 181007 14:34:55 __init__:28] campaign - request.args
+[I 181007 14:49:16 __init__:24] CALL /tet/v1/campaigns
+[I 181007 14:49:16 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 14:49:16 __init__:26] campaigns.get_campaigns()
+[I 181007 14:49:29 __init__:45] /tet/v1/touchpoints
+[I 181007 14:49:29 touchpoints:62] CALL /tet/v1/touchpoints - APPLES
+[I 181007 14:51:33 __init__:45] /tet/v1/touchpoints
+[I 181007 14:51:33 touchpoints:62] CALL /tet/v1/touchpoints - APPLES
+[I 181007 15:59:27 __init__:125] /tet/v1/target
+[I 181007 16:11:33 __init__:125] /tet/v1/target
+[I 181007 16:11:33 target:31] CALL /tet/v1/targets - APPLES
+[I 181007 16:11:49 __init__:105] /tet/v1/audience
+[I 181007 16:11:49 audience:13] CALL /tet/v1/audience
+[I 181007 16:14:23 __init__:24] CALL /tet/v1/campaigns
+[I 181007 16:14:23 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 16:14:23 __init__:26] campaigns.get_campaigns()
+[I 181007 16:14:42 __init__:45] /tet/v1/touchpoints
+[I 181007 16:14:42 touchpoints:62] CALL /tet/v1/touchpoints - APPLES
+[I 181007 16:14:50 __init__:24] CALL /tet/v1/campaigns
+[I 181007 16:14:50 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 16:14:51 __init__:26] campaigns.get_campaigns()
+[I 181007 16:15:50 __init__:65] /tet/v1/engagements
+[I 181007 16:15:50 engagement:31] CALL /tet/v1/engagements - APPLES
+[I 181007 16:16:20 __init__:125] /tet/v1/target
+[I 181007 16:16:20 target:31] CALL /tet/v1/targets - APPLES
+[I 181007 16:16:54 __init__:125] /tet/v1/target
+[I 181007 16:16:54 target:31] CALL /tet/v1/targets - APPLES
+[I 181007 16:17:46 __init__:85] /tet/v1/industry
+[I 181007 16:17:46 industry:45] CALL /tet/v1/industry - APPLES

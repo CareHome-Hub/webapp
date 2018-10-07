@@ -3,3 +3,4 @@ requests
 awscli
 logzero
 py2neo
+connexion

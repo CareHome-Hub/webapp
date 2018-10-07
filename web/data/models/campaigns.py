@@ -1,4 +1,8 @@
-campaigns = [
+from .graphdb import gdb
+from logzero import logger
+
+
+campaigns_test = [
   {
     "campaign": "Campaign1",
     "industry": "xxx",
@@ -194,6 +198,17 @@ campaigns = [
 ]
 
 
-def get_campaigns():
-    return campaigns
+def get_campaigns_test():
+    return campaigns_test
 
+
+def get_campaigns():
+    logger.info("CALL /tet/v1/campaigns - BANANAS")
+    graph = gdb.get_db()
+    data = graph.data("MATCH(c: CAMPAIGN) RETURN c.industry , c.ref , c.target, c.touchpoints, c.ActualGoal ,\
+                      c.BudgetRollover, c. ConversionRate , c.Cost ,\
+                      c.ImprovementsCost, c.Predicted_Goal , c.Predicted_Goal_variance, c.StartingBudget, c.SuccessFee, c. campaign ")
+
+    for elem in data:
+        print("Element : {}".format(elem))
+    return data

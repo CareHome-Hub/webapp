@@ -197,11 +197,7 @@ campaigns = [
 
 
 def get_camps():
-    logger.info("/")
+    logger.info("Getting Camps")
     return campaigns
 
-
-def get_campign_industry(ind = "marketing"):
-
-    pass
 

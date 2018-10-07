@@ -1,4 +1,7 @@
-touchpoints = [
+from .graphdb import gdb
+from logzero import logger
+
+test_touchpoints = [
   {
     "touchpoint": "Touchpoint1",
     "conversion_rate": 6.35,
@@ -51,9 +54,18 @@ touchpoints = [
 ]
 
 
-def get_touchpoints():
-    return touchpoints
+def get_test_touchpoints():
+    return test_touchpoints
 
-def get_select_touchpoints(reqd=[]):
-    resp = {}
-    
+
+def get_touchpoints():
+    logger.info("CALL /tet/v1/touchpoints - APPLES")
+    graph = gdb.get_db()
+    data = graph.data(
+      "MATCH(t: TOUCHPOINT) RETURN t.AvgCost as AvgCost, t.AvgReview as AvgReview, t.SCORE as SCORE, t.ref as ref, t.title as title, t.touchpoint as touchpoint, t.type as type"
+    )
+
+    for elem in data:
+        print("Element : {}".format(elem))
+    return data
+
